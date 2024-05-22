@@ -7,19 +7,19 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "0")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7132805182:AAFpW6JL1noej60-SFUwdWtQgGUFyI748xU")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "0"))
+APP_ID = int(os.environ.get("APP_ID", "24147162"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "0")
+API_HASH = os.environ.get("API_HASH", "508749597723a5f8e8fdda1c2c29e7d4")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "0"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5090651635"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5984303934"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -35,8 +35,8 @@ FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #pics
-START_PIC = os.environ.get("START_PIC", "https://graph.org/file/510affa3d4b6c911c12e3.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/a51caa9b1783e28456147.jpg")
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/402f7baaa92dbbee3d646.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/49bd2e92dba2621a5980b.jpg")
 
 #text
 HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Adult_Mayhem\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻Developed by <a href=https://t.me/Its_Abdullaah>ᴀʙᴅᴜʟʟᴀʜ</a></b>"
