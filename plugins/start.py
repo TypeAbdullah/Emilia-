@@ -107,8 +107,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
              InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data='about')],
-            [InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Anime_X_Hunters'),
-             InlineKeyboardButton('ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Ongoing_Anime_X_Hunter')],
+            [InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Adult_Mayhem'),
+             InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/GiggukXD')],
             [InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data='close')]
         ])
         try:
@@ -233,7 +233,7 @@ async def my_plan(client: Client, message: Message):
     if is_user_premium:
         await message.reply_text("Ads : Disable\nPremium : Unlocked\n\nNice Dude you're a premium user..!")
     else:
-        await message.reply_text("Ads : Enable\nPremium : Locked\n\nUnlock Premium to get more benefits\nContact - @Okabe_xRintarou..!")
+        await message.reply_text("Ads : Enable\nPremium : Locked\n\nUnlock Premium to get more benefits\nContact - @GiggukXD..!")
 
 
 @Bot.on_message(filters.command('users') & filters.private & filters.user(OWNER_ID))
