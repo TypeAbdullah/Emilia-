@@ -35,8 +35,8 @@ FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #pics
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/402f7baaa92dbbee3d646.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/49bd2e92dba2621a5980b.jpg")
+START_PIC = os.environ.get("START_PIC", "https://graph.org/file/cbd950287955f6de7fdf8-ca0fe93290233c52dd.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/cbd950287955f6de7fdf8-ca0fe93290233c52dd.jpg")
 
 #text
 HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Adult_Mayhem\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻Developed by <a href=https://t.me/Its_Abdullaah>ᴀʙᴅᴜʟʟᴀʜ</a></b>"
