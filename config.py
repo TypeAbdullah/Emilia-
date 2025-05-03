@@ -29,8 +29,8 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Emilia:Emilia@cluster0.ap
 DB_NAME = os.environ.get("DATABASE_NAME", "Emilia")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002518884483"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002563666017"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002690659862"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002682553961"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -47,7 +47,7 @@ SHORT_MSG = "Your Link is down here click on Short URL.."
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - @TeamMayhem</b>")
 try:
     ADMINS=[7099729191]
-    for x in (os.environ.get("ADMINS", "7099729191").split()):
+    for x in (os.environ.get("ADMINS", "6715123211").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -72,7 +72,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "Pʟᴇᴀꜱᴇ ᴅᴏɴ'ᴛ ᴍᴇꜱꜱᴀɢᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋ ꜰᴏʀ - @TeamMayhem"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5090651635)
+ADMINS.append(6715123211)
 
 AUTO_DEL = os.environ.get("AUTO_DEL", "True")
 DEL_TIMER = int(os.environ.get("DEL_TIMER", "600"))
