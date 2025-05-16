@@ -35,12 +35,12 @@ FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002598691848"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #pics
-START_PIC = os.environ.get("START_PIC", "https://graph.org/file/cbd950287955f6de7fdf8-ca0fe93290233c52dd.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/cbd950287955f6de7fdf8-ca0fe93290233c52dd.jpg")
+START_PIC = os.environ.get("START_PIC", "https://graph.org/file/a8b0d3b029729416a6a59-be10161373035987e1.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/a8b0d3b029729416a6a59-be10161373035987e1.jpg")
 
 #text
 HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Adult_Mayhem\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻Developed by <a href=https://t.me/Its_Abdullaah>ᴀʙᴅᴜʟʟᴀʜ</a></b>"
-ABOUT_TXT = "<b>⟦⟧ Hi There {first}!💫\n┏━━━━━━━❪❂❫━━━━━━━━\n◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/GiggukXD>ɢɪɢɢᴜᴋ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Adult_Mayhem>ᴀᴅᴜʟᴛ ᴍᴀʏʜᴇᴍꜱ</a>\n◈ ᴄʜᴀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/CulturedChat>ᴄᴜʟᴛᴜʀᴇᴅ ᴄʜᴀᴛꜱ</a>\n◈ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>\n◈ ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Its_Abdullaah>ᴀʙᴅᴜʟʟᴀʜ</a>\n┗━━━━━━━❪❂❫━━━━━━━━</b>"
+ABOUT_TXT = "<b>⟦⟧ Hi There {first}!💫\n┏━━━━━━━❪❂❫━━━━━━━━\n◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/TeamMayhem>ɢɪɢɢᴜᴋ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Cultured_Mayhem>ᴀᴅᴜʟᴛ ᴍᴀʏʜᴇᴍꜱ</a>\n◈ ᴄʜᴀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/CulturedChat>ᴄᴜʟᴛᴜʀᴇᴅ ᴄʜᴀᴛꜱ</a>\n◈ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>\n◈ ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Its_Abdullaah>ᴀʙᴅᴜʟʟᴀʜ</a>\n┗━━━━━━━❪❂❫━━━━━━━━</b>"
 SHORT_MSG = "Your Link is down here click on Short URL.."
 
 #start message
