@@ -14,7 +14,6 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
                         InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data='close')
                     ]
                 ]
@@ -26,22 +25,9 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
-                     InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close')]
+                    [InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close')]
                 ]
             )
-        )
-    elif data == "start":
-        await query.message.edit_text(
-            text=START_MSG.format(first=query.from_user.first_name),
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
-                 InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data='about')],
-                [InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Cultured_Mayhem'),
-                 InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/NaapaExtra')],
-                [InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data='close')]
-            ])
         )
     elif data == "premium":
         await query.message.edit_text(
