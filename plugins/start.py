@@ -105,11 +105,8 @@ async def start_command(client: Client, message: Message):
         return
     else:
         reply_markup = InlineKeyboardMarkup([
-            [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
-             InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data='about')],
-            [InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Cultured_Mayhem'),
-             InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/NaapaExtra')],
-            [InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data='close')]
+            [InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data='about'),
+             InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data='close')],
         ])
         try:
             await message.reply_photo(
