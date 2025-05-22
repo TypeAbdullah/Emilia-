@@ -40,13 +40,13 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/a8b0d3b029729416
 
 #text
 HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Adult_Mayhem\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻Developed by <a href=https://t.me/NaapaExtra>ᴄᴜʟᴛᴜʀᴇᴅ ᴍᴀʏʜᴇᴍ</a></b>"
-ABOUT_TXT = "<b>⟦⟧ Hi There {first}!💫\n┏━━━━━━━❪❂❫━━━━━━━━\n◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/NaapaExtra>ɴᴀᴘᴀᴇxᴛʀᴀ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Cultured_Mayhem>ᴄᴜʟᴛᴜʀᴇᴅ ᴍᴀʏʜᴇᴍ</a>\n◈ ᴄʜᴀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/Cultured_Mayhem>ᴄᴜʟᴛᴜʀᴇᴅ ᴄʜᴀᴛꜱ</a>\n◈ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>\n◈ ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Its_Abdullaah>ᴀʙᴅᴜʟʟᴀʜ</a>\n┗━━━━━━━❪❂❫━━━━━━━━</b>"
+ABOUT_TXT = "<b>⟦⟧ Hi There {first}!💫\n┏━━━━━━━❪❂❫━━━━━━━━\n◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/NaapaExtra>ɴᴀᴘᴀᴇxᴛʀᴀ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Cultured_Mayhem>ᴄᴜʟᴛᴜʀᴇᴅ ᴍᴀʏʜᴇᴍ</a>\n◈ ᴄʜᴀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/Cultured_Mayhem>ᴄᴜʟᴛᴜʀᴇᴅ ᴄʜᴀᴛꜱ</a>\n◈ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>\n◈ ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/About_Extra>ᴀʙᴅᴜʟʟᴀʜ</a>\n┗━━━━━━━❪❂❫━━━━━━━━</b>"
 SHORT_MSG = "Your Link is down here click on Short URL.."
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - @TeamMayhem</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\n<blockquote>ɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - @TeamMayhem</blockquote></b>")
 try:
-    ADMINS=[7099729191]
+    ADMINS=[6715123211]
     for x in (os.environ.get("ADMINS", "6715123211").split()):
         ADMINS.append(int(x))
 except ValueError:
