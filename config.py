@@ -74,7 +74,7 @@ USER_REPLY_TEXT = "Pʟᴇᴀꜱᴇ ᴅᴏɴ'ᴛ ᴍᴇꜱꜱᴀɢᴇ ᴍᴇ ᴅ�
 ADMINS.append(OWNER_ID)
 ADMINS.append(6715123211)
 
-AUTO_DEL = os.environ.get("AUTO_DEL", "True")
+AUTO_DEL = os.environ.get("AUTO_DEL", "False")
 DEL_TIMER = int(os.environ.get("DEL_TIMER", "600"))
 DEL_MSG = "<b>Files will be deleting in {time}. Forward in your saved Messages..!</b>"
 
